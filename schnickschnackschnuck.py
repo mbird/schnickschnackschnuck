@@ -32,7 +32,7 @@ def name_to_number(name):
     elif name == "scissors":
         return 4
     else:
-        return "You did not make an appropriate choice."
+        print "You did not make an appropriate choice."
 
 
 
@@ -54,7 +54,7 @@ def number_to_name(number):
     elif number == 4:
         return "scissors"
     else:
-        return "You did not make an appropriate choice."
+        print "You did not make an appropriate choice."
     
 
 def rpsls(player_choice): 
